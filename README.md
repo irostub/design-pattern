@@ -1,2 +1,1 @@
-# Pattern-design
-Project of various pattern designs
+# design-pattern
