@@ -1,4 +1,4 @@
-package com.irostub;
+package com.irostub.singleton;
 
 public class SingletonEagerInitialization {
     private static SingletonEagerInitialization singletonEagerInitialization = new SingletonEagerInitialization();
