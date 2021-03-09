@@ -2,7 +2,6 @@ package com.irostub.singleton;
 
 public class SingletonLazyInitialization {
     private static SingletonLazyInitialization singletonLazyInitialization;
-    private int checksum;
 
     private SingletonLazyInitialization() {
     }
@@ -12,13 +11,5 @@ public class SingletonLazyInitialization {
             singletonLazyInitialization = new SingletonLazyInitialization();
         }
         return singletonLazyInitialization;
-    }
-
-    public int getChecksum() {
-        return checksum;
-    }
-
-    public void setChecksum(int checksum) {
-        this.checksum = checksum;
     }
 }
