@@ -5,6 +5,8 @@ import com.irostub.singleton.SingletonHolderInitialization;
 import com.irostub.singleton.SingletonLazyInitialization;
 import com.irostub.singleton.SingletonThreadSafe;
 import com.irostub.strategy.tabs.*;
+import com.irostub.strategy.tabs.adapter.ThirdPartyTab;
+import com.irostub.strategy.tabs.adapter.ThirdPartyTabAdapter;
 
 public class Main {
     public static void main(String[] args) {
@@ -22,6 +24,9 @@ public class Main {
         tab.setStrategyTab(new TabMail());
         tab.onClick();
         tab.setStrategyTab(new TabCafe());
+        tab.onClick();
+        //Adapter Pattern with Strategy Pattern
+        tab.setStrategyTab(new ThirdPartyTabAdapter(new ThirdPartyTab()));
         tab.onClick();
     }
 }
