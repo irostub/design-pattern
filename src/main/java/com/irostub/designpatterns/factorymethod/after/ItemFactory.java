@@ -1,4 +1,4 @@
-package com.irostub.designpatterns.factorymethod;
+package com.irostub.designpatterns.factorymethod.after;
 
 public interface ItemFactory {
 
