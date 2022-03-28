@@ -1,4 +1,4 @@
-package com.irostub.designpatterns.singleton;
+package com.irostub.designpatterns._01singleton;
 
 /**
  * private 생성자와 public static 메소드를 사용하는 방법

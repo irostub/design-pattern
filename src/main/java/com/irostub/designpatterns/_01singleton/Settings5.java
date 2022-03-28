@@ -1,4 +1,4 @@
-package com.irostub.designpatterns.singleton;
+package com.irostub.designpatterns._01singleton;
 
 /**
  * Enum을 사용해서 싱글톤 만들기

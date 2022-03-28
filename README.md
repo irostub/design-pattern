@@ -31,4 +31,4 @@
 11. 비지터 패턴
 
 ## 패키지 구조
-- com.irostub.designpatterns.singleton 싱글톤 패턴 구현
+- com.irostub.designpatterns._01singleton 싱글톤 패턴 구현

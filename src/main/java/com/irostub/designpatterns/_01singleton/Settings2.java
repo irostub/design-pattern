@@ -1,4 +1,4 @@
-package com.irostub.designpatterns.singleton;
+package com.irostub.designpatterns._01singleton;
 
 /**
  * synchronized 사용해서 동기화 처리

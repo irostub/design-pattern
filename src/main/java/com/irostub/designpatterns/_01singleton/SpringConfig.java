@@ -1,4 +1,4 @@
-package com.irostub.designpatterns.singleton;
+package com.irostub.designpatterns._01singleton;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
