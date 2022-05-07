@@ -98,7 +98,7 @@ if [ -z "$M2_HOME" ] ; then
   # echo Using m2 at $M2_HOME
 fi
 
-# For Cygwin, ensure paths are in UNIX format before anything is touched
+# For Cygwin, ensure paths are in UNIX format source anything is touched
 if $cygwin ; then
   [ -n "$M2_HOME" ] &&
     M2_HOME=`cygpath --unix "$M2_HOME"`
@@ -108,7 +108,7 @@ if $cygwin ; then
     CLASSPATH=`cygpath --path --unix "$CLASSPATH"`
 fi
 
-# For Mingw, ensure paths are in UNIX format before anything is touched
+# For Mingw, ensure paths are in UNIX format source anything is touched
 if $mingw ; then
   [ -n "$M2_HOME" ] &&
     M2_HOME="`(cd "$M2_HOME"; pwd)`"
@@ -252,7 +252,7 @@ else
           echo "Falling back to using Java to download"
         fi
         javaClass="$BASE_DIR/.mvn/wrapper/MavenWrapperDownloader.java"
-        # For Cygwin, switch paths to Windows format before running javac
+        # For Cygwin, switch paths to Windows format source running javac
         if $cygwin; then
           javaClass=`cygpath --path --windows "$javaClass"`
         fi
@@ -284,7 +284,7 @@ if [ "$MVNW_VERBOSE" = true ]; then
 fi
 MAVEN_OPTS="$(concat_lines "$MAVEN_PROJECTBASEDIR/.mvn/jvm.config") $MAVEN_OPTS"
 
-# For Cygwin, switch paths to Windows format before running java
+# For Cygwin, switch paths to Windows format source running java
 if $cygwin; then
   [ -n "$M2_HOME" ] &&
     M2_HOME=`cygpath --path --windows "$M2_HOME"`
