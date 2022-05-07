@@ -1,7 +1,10 @@
 package com.irostub.designpatterns._06adaptor.ex;
 
 import java.io.*;
-import java.util.*;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Enumeration;
+import java.util.List;
 
 public class WorkInJava {
     public static void main(String[] args) {
