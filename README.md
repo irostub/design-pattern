@@ -29,6 +29,3 @@
 9. 전략 패턴
 10. 템플릿 메소드 패턴
 11. 비지터 패턴
-
-## 패키지 구조
-- com.irostub.designpatterns._01singleton 싱글톤 패턴 구현
